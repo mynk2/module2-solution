@@ -4,7 +4,12 @@
   padding: 10px;
 }
 
-/********** container for h2 style ********/
+
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%; 
+}
 
 h2 {
   position: absolute;
@@ -18,37 +23,31 @@ h2 {
   text-align:center;
   padding: center;
   }
-
-h1 {
-  text-align: center;
-  margin-top: 5%;
-  margin-bottom: 5%; 
-}
   
 .section {  
   clear: margin;
-  position: relative;
-  color: black;
-  background-color: lightgrey;
   padding: 10px;
-  padding-top: 45px;
-  font-size: 100%;
   border:2px solid black;
+  position: relative;
+  padding-top: 45px;
+  color: black;
+  font-size: 100%;
   margin-left: 15px;
   margin-bottom: 15px;
   margin-right: 0px;
+  background-color: lightgrey;
   }  
   /********* styles for top-right boxes under the containers **********/
   .chicken{
-    background-color:#009999;         
+    background-color:#007085;         
     color: white;
     }
    .beef{
-    background-color:#3333ff;
+    background-color:#3333de;
     color: white;  
    }
    .sushi{
-    background-color:#993366;
+    background-color:#946050;
     color: white;   
    }
 
